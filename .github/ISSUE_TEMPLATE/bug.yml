@@ -1,0 +1,30 @@
+name: Bug-report
+description: Report a bug.
+body:
+  - type: markdown
+    attributes:
+      value: |
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: Description of what the bug is.
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Steps to reproduce the problem.
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Expected behavior
+      description: Description of what should happen.
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: OS / Linux distribution
